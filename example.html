@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Sending jQuery from backend PHP - Reedik Tuuling - Profileo</title>
+		<meta charset="utf-8" />
+		<meta name="description" content="Profile and portfolio of Reedik Tuuling" /> 
+		<meta name="keywords" content="design, web interfaces, photography, programmer, jQuery, CSS, HTML" />
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+		<script type="text/javascript" src="/media/js/highlight.pack.js"></script>
+
+		<link type="text/css" rel="stylesheet" href="media/style.css">
+		<link type="text/css" rel="stylesheet" href="media/codehighlight.css">
+
+		<meta name="google-site-verification" content="7J8r8c2g-Y-rs8kBi4ywhLcsvl3VOr-z2OCTC6HbinI" />
+	</head>
+	<body>
+		 <script type="text/javascript">
+      		hljs.initHighlightingOnLoad();
+   		 </script>
+		<h2>Sending jQuery as AJAX response from PHP backend</h2>
+		<p>This approach enables you to seamlessly embed your back-end PHP generated responses to your front-end Javascript. You can write jQuery in PHP using PHP syntax and send it through a small and lightweight middle layer which then executes your script without the need to write a parser or translator for your responses. It is very easy to implement and fast to learn, you only need to know some basic PHP and jQuery syntax. I have found that this method greatly reduces my development time and gives me a lot more freedom implementing different and more complex front-end interfaces.</p>
+		<p>The plugin used for this is made by Anton Shevchuk. You can view his webpage at <a href="http://anton.shevchuk.name" target="_blank">http://anton.shevchuk.name</a> and the page for the plugin at <a href="http://jquery.hohli.com/" target="_blank">http://jquery.hohli.com/</a></p>
+		<h3>Step by step implementation</h3>	
+			<p>
+				You can <a href="#">download</a> the complete code or view the working <a href="#">demo</a>.
+			</p>
+			<h4>#1 Create your base markup</h4>
+				<p>For this example i'm using minimal HTML5 syntax. You will need only one HTML file for this to work. So use this markup and save it as index.html at your document root folder. For this this example PHP is only used to generate Ajax responses and is not needed for inital page load.</p>
+			<pre><code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+	&lt;head&gt;
+		&lt;meta charset=&quot;utf-8&quot; /&gt;
+	&lt;/head&gt;
+	&lt;body&gt;
+	
+	&lt;/body&gt;
+&lt;/html&gt;
+			</code></pre>
+			<h4>#2 Add jQuery to you page</h4>
+				<p>First thing we need is to add jQuery framework support to our page. I prefer to add it from Google Code. Or you can download it from <a href="http://docs.jquery.com/Downloading_jQuery">http://docs.jquery.com/Downloading_jQuery</a> and host it from your own server.</p>
+   		 	<pre><code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+	&lt;head&gt;
+		&lt;meta charset=&quot;utf-8&quot; /&gt;
+		<span class="highlight">&lt;script type=&quot;text/javascript&quot; src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js&quot;&gt;&lt;/script&gt;</span>
+	&lt;/head&gt;
+	&lt;body&gt;
+	
+	&lt;/body&gt;
+&lt;/html&gt;
+			</code></pre>
+			<h4>#3 Download jQuery.php plugin<h4>
+			<h4>#4 Create a PHP script for generating back-end responses<h4>
+			<h4>#5 Implement the plugin into your code<h4>
+			<h4>#6 Creating our first ajax call and jQuery response<h4>
+			<h4>#7 Chaning multiple commands in PHP<h4>
+	</body>
+</html>
