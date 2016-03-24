@@ -23,7 +23,9 @@
 			a:visited, a:hover, a:active, a:link{text-decoration: none; color: #E2E2E2;}
 
 			html {
-				background: url(IMG_0293_mod_1.jpg) no-repeat center center fixed;
+				/*background: url(IMG_0293_mod_1.jpg) no-repeat center center fixed;*/
+				background: rgb(250, 250, 250);
+
 				-webkit-background-size: cover;
 				-moz-background-size: cover;
 				-o-background-size: cover;
@@ -51,9 +53,24 @@
 			h1 {
 				font-size: 34px;
 			}
+
+			img {
+				position: fixed;
+				width:100%;
+				height: auto;
+				image-rendering: optimizeSpeed;             /* STOP SMOOTHING, GIVE ME SPEED  */
+				image-rendering: -moz-crisp-edges;          /* Firefox                        */
+				image-rendering: -o-crisp-edges;            /* Opera                          */
+				image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
+				image-rendering: pixelated; /* Chrome */
+				image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
+				-ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
+
+			}
 		</style>
 	</head>
 	<body>
+	<img src="IMG_0293_mod_1.jpg" alt="">
 		<div id="content">
 			<h1>Reedik Tuuling</h1>
 		</div>
