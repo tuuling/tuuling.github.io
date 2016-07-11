@@ -5,6 +5,7 @@
 		<meta charset="utf-8" />
 		<meta name="description" content="Reedik Tuuling - Web Developer" />
 		<meta name="keywords" content=""/>
+		<meta name="viewport" content="width=300%, initial-scale=1">
 
 		<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 		<meta name="google-site-verification" content="7J8r8c2g-Y-rs8kBi4ywhLcsvl3VOr-z2OCTC6HbinI" />
@@ -23,9 +24,7 @@
 
 			html {
 				/*background: url(IMG_0293_mod_1.jpg) no-repeat center center fixed;*/
-				background-color: rgb(250, 250, 250);
-
-				background: url(IMG_0697_mod_1.jpg) no-repeat center center fixed;
+				background: rgb(250, 250, 250) url(IMG_0697_mod_1.jpg) no-repeat fixed center center;
 				-webkit-background-size: cover;
 				-moz-background-size: cover;
 				-o-background-size: cover;
@@ -44,13 +43,20 @@
 
 				padding: 0;
 				margin: 0;
+				height:100%;
+				min-height:100%;
+				top:0;
 			}
-
+			@-ms-viewport{
+				width: 300%;
+			}
 			body {
 				color: #E2E2E2;
 				font-family: 'Pacifico', cursive;
 				padding: 0;
 				margin: 0;
+				height:100%;
+				min-height:100%;
 			}
 
 			#content {
