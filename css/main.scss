@@ -1,0 +1,69 @@
+@import "bootstrap.min.css";
+
+$color-text-black: #545454;
+$color-text-blue: #003f75;
+
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  min-height: 100%;
+  background: none;
+}
+
+#main-container {
+  //height: 100%;
+  color: $color-text-black;
+  font-family: 'Raleway', sans-serif;
+  .wrapper {
+    background-color: rgba(250, 250, 250, 0.75);
+  }
+}
+
+h1, h2, h3, h4 {
+  font-variant: all-small-caps;
+  letter-spacing: .1rem;
+  font-weight: 400;
+}
+
+h1 {font-size: 55px;}
+
+h2 {font-size: 34px;}
+
+h3 {
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: .3rem;
+}
+
+div.name {
+  text-align: center;
+  h1 {
+    line-height: 1;
+    letter-spacing: .5rem;
+  }
+
+  h2 {
+    color: $color-text-blue;
+  }
+
+}
+
+.contacts {
+  text-align: center;
+}
+
+div.content-block {
+  text-align: justify;
+  margin-top: 1.5rem;
+}
+
+.social-media a{
+  opacity: 0.75;
+  &:hover {
+    text-decoration: none;
+    opacity: 1;
+  }
+}
+
+

@@ -1,0 +1,66 @@
+@import "bootstrap.min.css";
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  min-height: 100%;
+  background: none;
+}
+
+#main-container {
+  color: #545454;
+  font-family: "Raleway", sans-serif;
+}
+#main-container .wrapper {
+  background-color: rgba(250, 250, 250, 0.75);
+}
+
+h1, h2, h3, h4 {
+  font-variant: all-small-caps;
+  letter-spacing: 0.1rem;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 55px;
+}
+
+h2 {
+  font-size: 34px;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 0.3rem;
+}
+
+div.name {
+  text-align: center;
+}
+div.name h1 {
+  line-height: 1;
+  letter-spacing: 0.5rem;
+}
+div.name h2 {
+  color: #003f75;
+}
+
+.contacts {
+  text-align: center;
+}
+
+div.content-block {
+  text-align: justify;
+  margin-top: 1.5rem;
+}
+
+.social-media a {
+  opacity: 0.75;
+}
+.social-media a:hover {
+  text-decoration: none;
+  opacity: 1;
+}
+
+/*# sourceMappingURL=main.css.map */
