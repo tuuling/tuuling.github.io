@@ -36,6 +36,14 @@ h3 {
   letter-spacing: .3rem;
 }
 
+h4 {
+  color: $color-text-blue;
+}
+
+h5 {
+  font-size: 13px;
+}
+
 div.name {
   text-align: center;
   h1 {
@@ -52,6 +60,23 @@ div.name {
 .contacts {
   text-align: center;
   line-height: 2.5rem;
+}
+
+.experience {
+  ul {
+    list-style: none;
+    li:before{
+      content: "";
+      display: inline-block;
+      height: 23px;
+      width: 23px;
+      background: url('../img/bookmark.svg') no-repeat;
+      background-size: contain;
+      margin-left: -1.6rem;
+      position: absolute;
+      margin-top: 0.3rem;
+    }
+  }
 }
 
 div.content-block {
