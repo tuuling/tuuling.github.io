@@ -1,6 +1,6 @@
 @import "bootstrap.min.css";
 
-$color-text-black: #545454;
+$color-text-black: #242424;
 $color-text-blue: #003f75;
 
 body {
@@ -51,6 +51,7 @@ div.name {
 
 .contacts {
   text-align: center;
+  line-height: 2.5rem;
 }
 
 div.content-block {
