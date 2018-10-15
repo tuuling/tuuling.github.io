@@ -37,6 +37,8 @@ h3 {
 }
 
 h4 {
+  font-variant: normal;
+  font-size: 20px;
   color: $color-text-blue;
 }
 
@@ -72,9 +74,8 @@ div.name {
       width: 23px;
       background: url('../img/bookmark.svg') no-repeat;
       background-size: contain;
-      margin-left: -1.6rem;
+      margin-left: -1.8rem;
       position: absolute;
-      margin-top: 0.3rem;
     }
   }
 }
