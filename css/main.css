@@ -15,6 +15,18 @@ body {
   background-color: rgba(250, 250, 250, 0.75);
 }
 
+img.mugshot {
+  transition: opacity 0.5s cubic-bezier(0.16, 0.75, 0.4, 0.39);
+}
+img.mugshot.bw {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+img.mugshot.bw:hover {
+  opacity: 0;
+}
+
 h1, h2, h3, h4 {
   font-variant: all-small-caps;
   letter-spacing: 0.1rem;
