@@ -25,6 +25,18 @@ body {
     box-shadow: -9px 28px 10px 5px rgba(0, 0, 0, 0.15);
   }
 }
+img.mugshot {
+  transition: opacity 0.5s cubic-bezier(0.16, 0.75, 0.4, 0.39);
+}
+img.mugshot.bw {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+img.mugshot.bw:hover {
+  opacity: 0;
+}
+
 h1, h2, h3, h4 {
   font-variant: all-small-caps;
   letter-spacing: 0.1rem;
@@ -45,6 +57,16 @@ h3 {
   letter-spacing: 0.3rem;
 }
 
+h4 {
+  font-variant: normal;
+  font-size: 20px;
+  color: #003f75;
+}
+
+h5 {
+  font-size: 13px;
+}
+
 div.name {
   text-align: center;
 }
@@ -59,6 +81,20 @@ div.name h2 {
 .contacts {
   text-align: center;
   line-height: 2.5rem;
+}
+
+.experience ul {
+  list-style: none;
+}
+.experience ul li:before {
+  content: "";
+  display: inline-block;
+  height: 23px;
+  width: 23px;
+  background: url("../img/bookmark.svg") no-repeat;
+  background-size: contain;
+  margin-left: -1.8rem;
+  position: absolute;
 }
 
 div.content-block {
