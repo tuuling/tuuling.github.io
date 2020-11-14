@@ -1,6 +1,7 @@
 @import "bootstrap.min.css";
 
 $color-text-black: #242424;
+$color-text-white: #d6d6d6;
 $color-text-blue: #003f75;
 
 body {
@@ -15,8 +16,20 @@ body {
   //height: 100%;
   color: $color-text-black;
   font-family: 'Raleway', sans-serif;
+
   .wrapper {
     background-color: rgba(250, 250, 250, 0.75);
+    box-shadow: -9px 28px 10px 5px rgba(168,168,168,0.15);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  #main-container {
+    color: $color-text-white;
+    .wrapper {
+      background-color: rgba(50, 50, 50, 0.75);
+      box-shadow: -9px 28px 10px 5px rgba(0, 0, 0, 0.15);
+    }
   }
 }
 
