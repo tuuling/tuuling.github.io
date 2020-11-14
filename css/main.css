@@ -63,6 +63,11 @@ h4 {
   color: #003f75;
 }
 
+@media (prefers-color-scheme: dark) {
+  h4 {
+    color: #0066bf;
+  }
+}
 h5 {
   font-size: 13px;
 }
@@ -76,6 +81,11 @@ div.name h1 {
 }
 div.name h2 {
   color: #003f75;
+}
+@media (prefers-color-scheme: dark) {
+  div.name h2 {
+    color: #0066bf;
+  }
 }
 
 .contacts {

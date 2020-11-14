@@ -3,6 +3,7 @@
 $color-text-black: #242424;
 $color-text-white: #d6d6d6;
 $color-text-blue: #003f75;
+$color-text-lightblue: #0066bf;
 
 body {
   padding: 0;
@@ -69,6 +70,12 @@ h4 {
   color: $color-text-blue;
 }
 
+@media (prefers-color-scheme: dark) {
+  h4 {
+    color: $color-text-lightblue;
+  }
+}
+
 h5 {
   font-size: 13px;
 }
@@ -82,6 +89,12 @@ div.name {
 
   h2 {
     color: $color-text-blue;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    h2 {
+      color: $color-text-lightblue;
+    }
   }
 
 }
