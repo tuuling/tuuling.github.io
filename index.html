@@ -45,11 +45,17 @@
             min-height: 100%;
             top: 0;
         }
+        @media (prefers-color-scheme: dark) {
+            html {
+                background-image: none;
+                background-color: #1f1f1f;
+            }
+        }
     </style>
 </head>
 <body>
 <div id="main-container" class="container d-flex align-items-stretch p-0">
-    <div class="wrapper col-12 py-4 my-sm-4" style="box-shadow: -9px 28px 10px 5px rgba(168,168,168,0.15);">
+    <div class="wrapper col-12 py-4 my-sm-4">
         <div class="row d-flex align-items-stretch" style="height: 100%;">
             <div class="col-md-5 col-lg-4">
                 <div style="position: relative">
@@ -85,6 +91,18 @@
 
                 <div class="content-block">
                     <h3>Profile</h3>
+                    <p>Spacing utilities that apply to all breakpoints, from xs to xl, have no breakpoint abbreviation
+                        in them. This is because those classes are applied from min-width: 0 and up, and thus are not
+                        bound by a media query. The remaining breakpoints, however, do include a breakpoint
+                        abbreviation.</p>
+                    <p>Spacing utilities that apply to all breakpoints, from xs to xl, have no breakpoint abbreviation
+                        in them. This is because those classes are applied from min-width: 0 and up, and thus are not
+                        bound by a media query. The remaining breakpoints, however, do include a breakpoint
+                        abbreviation.</p>
+                    <p>Spacing utilities that apply to all breakpoints, from xs to xl, have no breakpoint abbreviation
+                        in them. This is because those classes are applied from min-width: 0 and up, and thus are not
+                        bound by a media query. The remaining breakpoints, however, do include a breakpoint
+                        abbreviation.</p>
                     <p>Spacing utilities that apply to all breakpoints, from xs to xl, have no breakpoint abbreviation
                         in them. This is because those classes are applied from min-width: 0 and up, and thus are not
                         bound by a media query. The remaining breakpoints, however, do include a breakpoint
