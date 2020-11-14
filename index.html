@@ -31,17 +31,14 @@
             -moz-background-size: cover;
             -o-background-size: cover;
             background-size: cover;
-
             filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='[IMG_0697_mod_1.jpg]', sizingMethod='scale');
             -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='[IMG_0697_mod_1.jpgew bg]', sizingMethod='scale')";
-
             image-rendering: optimizeSpeed; /* STOP SMOOTHING, GIVE ME SPEED  */
             image-rendering: -moz-crisp-edges; /* Firefox */
             image-rendering: -o-crisp-edges; /* Opera */
             image-rendering: -webkit-optimize-contrast; /* Webkit (non-standard naming) */
             image-rendering: crisp-edges;
             -ms-interpolation-mode: nearest-neighbor; /* IE (non-standard property) */
-
             padding: 0;
             margin: 0;
             height: 100%;
@@ -61,10 +58,18 @@
     <div class="wrapper col-12 py-4 my-sm-4">
         <div class="row d-flex align-items-stretch" style="height: 100%;">
             <div class="col-md-5 col-lg-4">
-                <img src="img/face2.png" alt="" class="img-fluid">
+                <div style="position: relative">
+                    <img src="img/face2-color.png" alt="" class="img-fluid mugshot">
+                    <img src="img/face2.png" alt="" class="img-fluid mugshot bw">
+                </div>
+
+
+
                 <div class="contacts mt-3">
-                    <img src="img/marker.svg" alt="" style="height: 2rem;margin-top: -4px; margin-left: -16px;">Tallinn, Estonia<br>
-                    <img src="img/mail.svg" alt=""  style="height: 2rem;margin-top: -4px; margin-left: -16px;"> contact@reediktuuling.com
+                    <img src="img/marker.svg" alt="" style="height: 2rem;margin-top: -4px; margin-left: -16px;">Tallinn,
+                    Estonia<br>
+                    <img src="img/mail.svg" alt="" style="height: 2rem;margin-top: -4px; margin-left: -16px;">
+                    contact@reediktuuling.com
                 </div>
 
             </div>
@@ -110,12 +115,67 @@
                         bound by a media query. The remaining breakpoints, however, do include a breakpoint
                         abbreviation.</p>
                 </div>
-                <div class="content-block">
+                <div class="content-block experience">
                     <h3>Experience</h3>
-                    <p>Spacing utilities that apply to all breakpoints, from xs to xl, have no breakpoint abbreviation
-                        in them. This is because those classes are applied from min-width: 0 and up, and thus are not
-                        bound by a media query. The remaining breakpoints, however, do include a breakpoint
-                        abbreviation.</p>
+                    <ul class="pl-4">
+                        <li>
+                            <h4>Cybernetica</h4>
+                            <h5>02.2018 - Present</h5>
+
+                            <p>Spacing utilities that apply to all breakpoints, from xs to xl, have no breakpoint
+                                abbreviation
+                                in them. This is because those classes are applied from min-width: 0 and up, and thus
+                                are not
+                                bound by a media query. The remaining breakpoints, however, do include a breakpoint
+                                abbreviation.</p>
+                        </li>
+                        <li>
+                            <h4>Creditstar</h4>
+                            <h5>10.2014 - 01.2018</h5>
+
+                            <p>Spacing utilities that apply to all breakpoints, from xs to xl, have no breakpoint
+                                abbreviation
+                                in them. This is because those classes are applied from min-width: 0 and up, and thus
+                                are not
+                                bound by a media query. The remaining breakpoints, however, do include a breakpoint
+                                abbreviation.</p>
+                        </li>
+                        <li>
+                            <h4>GrabCAD</h4>
+                            <h5>12.2012 - 08.2014</h5>
+
+                            <p>Spacing utilities that apply to all breakpoints, from xs to xl, have no breakpoint
+                                abbreviation
+                                in them. This is because those classes are applied from min-width: 0 and up, and thus
+                                are not
+                                bound by a media query. The remaining breakpoints, however, do include a breakpoint
+                                abbreviation.</p>
+                        </li>
+                        <li>
+                            <h4>Skype</h4>
+                            <h5>08.2010 - 11.2012</h5>
+
+                            <p>Spacing utilities that apply to all breakpoints, from xs to xl, have no breakpoint
+                                abbreviation
+                                in them. This is because those classes are applied from min-width: 0 and up, and thus
+                                are not
+                                bound by a media query. The remaining breakpoints, however, do include a breakpoint
+                                abbreviation.</p>
+                        </li>
+                        <li>
+                            <h4>Postimees</h4>
+                            <h5>09.2008 - 01.2010</h5>
+
+                            <p>Spacing utilities that apply to all breakpoints, from xs to xl, have no breakpoint
+                                abbreviation
+                                in them. This is because those classes are applied from min-width: 0 and up, and thus
+                                are not
+                                bound by a media query. The remaining breakpoints, however, do include a breakpoint
+                                abbreviation.</p>
+                        </li>
+                    </ul>
+
+
                 </div>
             </div>
         </div>
