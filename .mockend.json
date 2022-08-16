@@ -2,13 +2,13 @@
   "User": {
     "email": { "regexp": "[a-z]{5,10}@ridango.com" },
     "user_groups": {
-      "hasMany": "UserGroup"
+      "hasMany": "Usergroup"
     },
     "applications": {
       "hasMany": "Application"
     }
   },
-  "UserGroup": {
+  "Usergroup": {
     "key": { "string": [ "devs", "accountants", "someone" ] },
     "name": { "string": [ "Thor", "Loki", "Odin" ] }
   },
