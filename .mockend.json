@@ -2,14 +2,17 @@
   "User": {
     "email": { "regexp": "[a-z]{5,10}@ridango.com" },
     "user_groups": {
-      "hasMany": "Comment"
+      "hasMany": "UserGroup"
+    },
+    "applications: {
+      "hasMany": "Application"
     }
   },
   "UserGroup": {
     "key": { "string": [ "devs", "accountants", "someone" ] },
     "name": { "string": [ "Thor", "Loki", "Odin" ] }
   },
-  "Applications": {
+  "Application": {
     "key": { "string": [ "sync", "avl" ] },
     "auth0ClientId": { "string": [ "NZQq85Gt4DdGo4dHTyLIrgO6Uq8dU6oM", "VicfzaC2CG2ujIxQAGU0867FWs0wBmGH" ] },
     "name": { "string": [ "Sync", "Loki" ] }
