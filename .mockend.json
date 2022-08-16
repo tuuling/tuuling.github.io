@@ -4,7 +4,7 @@
     "user_groups": {
       "hasMany": "UserGroup"
     },
-    "applications: {
+    "applications": {
       "hasMany": "Application"
     }
   },
