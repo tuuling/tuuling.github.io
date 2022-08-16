@@ -6,12 +6,12 @@
     }
   },
   "UserGroup": {
-    "key": { "string": [ "devs", "accountants", 'someone' ] }
+    "key": { "string": [ "devs", "accountants", "someone" ] },
     "name": { "string": [ "Thor", "Loki", "Odin" ] }
   },
   "Applications": {
-    "key": { "string": [ "sync", "avl" ] }
-    "auth0ClientId": { "string": [ "NZQq85Gt4DdGo4dHTyLIrgO6Uq8dU6oM", "VicfzaC2CG2ujIxQAGU0867FWs0wBmGH" ] }
+    "key": { "string": [ "sync", "avl" ] },
+    "auth0ClientId": { "string": [ "NZQq85Gt4DdGo4dHTyLIrgO6Uq8dU6oM", "VicfzaC2CG2ujIxQAGU0867FWs0wBmGH" ] },
     "name": { "string": [ "Sync", "Loki" ] }
   }
 }
