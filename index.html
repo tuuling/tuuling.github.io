@@ -2,7 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8"/>
-    <link rel="icon" type="image/svg+xml" href="favicon.svg"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
     <meta name="theme-color" content="#f0fdfa">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="description"
@@ -27,15 +30,15 @@
     gtag('config', 'G-HQFB1H52W8');
 </script>
 <body>
-<div class="w-full max-w-screen-lg mx-auto lg:my-4 shadow-lg lg:rounded-b-lg">
+<div class="w-full max-w-screen-lg mx-auto lg:my-4 shadow-lg lg:rounded-b-lg" itemscope itemtype="http://schema.org/Person">
     <div class="overflow-hidden bg-gradient-to-b from-teal-50 to-teal-100 lg:rounded-t-lg">
         <div class="p-8 flex items-top sm:items-center">
-            <div class="hidden sm:block">
-                <img class="object-contain w-48 rounded-lg shadow-lg" src="/assets/IMG_3292-ysEmHjZO.JPG" alt="">
+            <div class="hidden sm:block" itemprop="image">
+                <img class="object-contain w-48 rounded-lg shadow-lg" src="/IMG_3292.JPG" alt="Profile picture of Reedik Tuuling">
             </div>
             <div class="text-red-1000 sm:pl-8">
-                <h1 class="text-4xl mb-4">My name is<br><span class="font-bold">Reedik Tuuling</span></h1>
-                <p>I am a <strong>Full-stack Web Developer</strong> with <strong>15+ years of
+                <h1 class="text-4xl mb-4">My name is<br><span class="font-bold" itemprop="name">Reedik Tuuling</span></h1>
+                <p itemprop="description">I am a <strong>Full-stack Web Developer</strong> with <strong>15+ years of
                     experience</strong>.
                 </p>
                 <p class="mt-2 flex flex-row gap-2 ">
@@ -67,7 +70,7 @@
     <div class="relative bg-gradient-to-b from-violet-50 to-violet-100">
         <div class="px-8 pb-4 text-amber-950">
             <h1 class="absolute text-amber-800 -top-4 text uppercase tracking-widest">About me</h1>
-            <div class="flex flex-col pt-8 prose">
+            <div class="flex flex-col pt-8 prose" itemprop="text">
                 <p>I built my first website at the age of 14, the year was 2002. My first full-time job as a software
                     developer was in 2008. Over the years I have worked in many different companies and accumulated a
                     great deal of expertise. I have always tried to keep learning new things and finding new
@@ -98,21 +101,21 @@
                 <div class="prose">
                     <h2 class="text-xl mb-2 not-prose">Frontend</h2>
                     <p>My main focus has always been front-end development - it's what I enjoy the most.</p>
-                    <p>I am very experienced with <strong>Angular</strong>, having used it since the first version. I
+                    <p>I am very experienced with <strong itemprop="knowsAbout">Angular</strong>, having used it since the first version. I
                         have occasionally used
-                        <strong>React</strong> when needed. I write all my applications in <strong>TypeScript</strong>.
+                        <strong itemprop="knowsAbout">React</strong> when needed. I write all my applications in <strong itemprop="knowsAbout">TypeScript</strong>.
                         For CSS, I have used
-                        <strong>TailwindCSS</strong>, <strong>Bootstrap</strong>, <strong>Material</strong>, and
-                        <strong>Foundation</strong>.</p>
+                        <strong itemprop="knowsAbout">TailwindCSS</strong>, <strong itemprop="knowsAbout">Bootstrap</strong>, <strong itemprop="knowsAbout">Material</strong>, and
+                        <strong itemprop="knowsAbout">Foundation</strong>.</p>
                 </div>
                 <div class="prose">
                     <h2 class="text-xl mb-2 not-prose">Backend</h2>
-                    <p><strong>Node.js</strong> with <strong>NestJS</strong> framework is my preferred choice for
+                    <p><strong itemprop="knowsAbout">Node.js</strong> with <strong itemprop="knowsAbout">NestJS</strong> framework is my preferred choice for
                         backend development. Additionally, I
-                        have extensive experience in <strong>PHP</strong> using <strong>Yii2</strong> and
-                        <strong>Java</strong> with
-                        <strong>Spring/Hibernate</strong>. I am also highly
-                        proficient in setting up and working with <strong>PostgreSQL</strong>.
+                        have extensive experience in <strong itemprop="knowsAbout">PHP</strong> using <strong itemprop="knowsAbout">Yii2</strong> and
+                        <strong itemprop="knowsAbout">Java</strong> with
+                        <strong itemprop="knowsAbout">Spring/Hibernate</strong>. I am also highly
+                        proficient in setting up and working with <strong itemprop="knowsAbout">PostgreSQL</strong>.
                     </p>
                 </div>
                 <div class="prose">
@@ -120,23 +123,23 @@
                     <p>
                         Usually, when writing full-stack applications I've had to set up and configure the server on
                         which it will run. I have had to set up servers manually and used automation tools such as
-                        <strong>Ansible</strong>, <strong>Docker</strong>, <strong>Kubernetes</strong> and
-                        <strong>Helm</strong>.
+                        <strong itemprop="knowsAbout">Ansible</strong>, <strong itemprop="knowsAbout">Docker</strong>, <strong itemprop="knowsAbout">Kubernetes</strong> and
+                        <strong itemprop="knowsAbout">Helm</strong>.
                     </p>
                 </div>
                 <div class="prose">
                     <h2 class="text-xl mb-2 not-prose">Other</h2>
-                    <p>I know my way around using <strong>LLMs</strong> to add <strong>AI</strong> functionalities to
-                        applications. I use <strong>LangChain</strong> as much as possible and
-                        <strong>Postgres pgvector</strong> for saving and querying vector embeddings.
+                    <p>I know my way around using <strong itemprop="knowsAbout">LLMs</strong> to add <strong itemprop="knowsAbout">AI</strong> functionalities to
+                        applications. I use <strong itemprop="knowsAbout">LangChain</strong> as much as possible and
+                        <strong itemprop="knowsAbout">Postgres pgvector</strong> for saving and querying vector embeddings.
                     </p>
                     <p>
-                        I write mobile applications as Angular apps wrapped with <strong>Capacitor</strong>. I'm also
+                        I write mobile applications as Angular apps wrapped with <strong itemprop="knowsAbout">Capacitor</strong>. I'm also
                         familiar with
-                        writing native <strong>iOS/watchOS</strong> apps with <strong>SwiftUI</strong>.
+                        writing native <strong itemprop="knowsAbout">iOS/watchOS</strong> apps with <strong itemprop="knowsAbout">SwiftUI</strong>.
                     </p>
                     <p>
-                        I have picked up <strong>Photography</strong>, <strong>Videography</strong> and <strong>Photoshop</strong>
+                        I have picked up <strong itemprop="knowsAbout">Photography</strong>, <strong itemprop="knowsAbout">Videography</strong> and <strong itemprop="knowsAbout">Photoshop</strong>
                         as a hobby. I won't do your wedding, but
                         I can take portraits and do small promotional video clips.</p>
                 </div>
@@ -151,9 +154,9 @@
         <div class="px-8 pb-12">
             <h1 class="absolute -top-4 text-3xl font-bold">Contact</h1>
             <div class="pt-8 max-w-prose">
-                <p>Reedik Tuuling</p>
+                <p itemprop="name">Reedik Tuuling</p>
                 <a class="underline decoration-sky-500"
-                   href="mailto:reedik@reediktuuling.com">reedik@reediktuuling.com</a>
+                   href="mailto:reedik@reediktuuling.com" itemprop="email">reedik@reediktuuling.com</a>
             </div>
         </div>
     </div>
